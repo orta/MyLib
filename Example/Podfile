@@ -1,0 +1,9 @@
+
+target 'MyLib', :exclusive => true do
+  pod "MyLib", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'EXPMatchers+FBSnapshotTest'
+end
